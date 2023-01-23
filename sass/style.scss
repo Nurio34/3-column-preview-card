@@ -1,0 +1,84 @@
+@import 'conf';
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    overflow-y:auto;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $Very-light-gray;
+main{
+    display: grid;
+    grid-template-columns: repeat(3,calc(60vw/3));
+    grid-template-rows: 50vh;
+    border-radius: 1rem;
+
+
+    .container{
+        margin:4vh 3vw 2.6vh 3vw;
+
+        h1{
+            margin:3vh 0 2.2vh 0;
+            color: $Very-light-gray;
+            font-size: 2.2rem;
+            font-weight: 400;
+        }
+        p{
+            color: $Transparent-white;
+            line-height: 2.7vh;
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            height:111.64px;
+        }
+        a{
+            display: inline-block;
+            text-decoration: none;
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            background: $Very-light-gray;
+            padding:1.3vh 1.6vw;
+            border-radius: 100vw;
+            margin-top:7vh;
+
+        }
+        a:hover{
+            background-color: inherit;
+            color:$Transparent-white;
+            border:2px solid $Transparent-white
+        }
+    }
+}
+.card1{
+    background: $Bright-orange;
+
+    a{
+        color:$Bright-orange
+    }
+}
+.card2{
+    background: $Dark-cyan;
+
+    a{
+        color:$Dark-cyan;
+    }
+}
+.card3{
+    background: $Very-dark-cyan;
+
+    a{
+        color:$Very-dark-cyan;
+    }
+}
+
+}
+
+@import 'media';

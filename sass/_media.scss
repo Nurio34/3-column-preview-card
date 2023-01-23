@@ -1,0 +1,76 @@
+@media (max-width:375px){
+body{
+    min-height: 100vh;
+    display: block;
+    background: $Very-light-gray;
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60vh;
+    margin:7vh 5vw;
+
+    .container{
+        margin:4vh 3vw 2.6vh 12vw;
+
+        h1{
+            margin:3vh 0 4vh 0;
+            color: $Very-light-gray;
+            font-size: 2.2rem;
+            font-weight: 400;
+        }
+        p{
+            color: $Transparent-white;
+            line-height:3.4vh;
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            height:111.64px;
+            margin-right:18vw;
+            overflow: hidden;
+            br{
+                display: none;
+            }
+        }
+        a{
+            display: inline-block;
+            text-decoration: none;
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            background: $Very-light-gray;
+            padding:2vh 8vw;
+            border-radius: 100vw;
+            margin-top:7vh;
+
+        }
+        a:hover{
+            background-color: inherit;
+            color:$Transparent-white;
+            border:2px solid $Transparent-white
+        }
+    }
+}
+.card1{
+    background: $Bright-orange;
+
+    a{
+        color:$Bright-orange
+    }
+}
+.card2{
+    background: $Dark-cyan;
+
+    a{
+        color:$Dark-cyan;
+    }
+}
+.card3{
+    background: $Very-dark-cyan;
+
+    a{
+        color:$Very-dark-cyan;
+    }
+}
+
+}
+}
